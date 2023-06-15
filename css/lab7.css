@@ -1,0 +1,17 @@
+.vmenu a{
+ background: url('bullet_hover.gif') no-repeat 10 px center;
+ display: block;
+ border-bottom: 1 px dotted orangered;
+ color: orangered;
+ font-variant: small-caps;
+ font-size: larger;
+ text-decoration: none;
+ padding: 8 px 5 px 8 px 30 px;
+}
+.vmenu a:hover{
+ background: url('bullet.png') no-repeat 10 px center;
+ border-bottom: 1 px dotted white;
+ background-color: orangered;
+ color: white;
+ font-weight: bold;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<title>LAB 10 by Pham Tan Tai</title>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/menulab4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lab5.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script>
+        function goToSignIn() {
+            window.location.href = "lab9.html";
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h2>Sign Up</h2>
+        <img src="https://inkythuatso.com/uploads/thumbnails/800/2022/03/hinh-avatar-trang-cho-nu-30-10-06-57.jpg" alt="Avatar" class="avatar">
+        <div class="boxmodel">
+            <form>
+                <label>User Name:</label>
+                <br />
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Sur Name">
+                <input type="text" placeholder="Last Name"><br />
+                <label>Phone Number: </label>
+                <br>
+                <input name="id" type="tel" />
+                <br />
+                <label>Email: </label>
+                <br>
+                <input name="id" type="email" placeholder="...........@gmail.com" />
+                <br />
+                <label>Address: </label>
+                <br>
+                <input name="id" type="text" placeholder="House number/ Street name/ Ward/ District/ City" />
+                <br />
+                <label>Password: </label><br />
+                <input name="pư" type="password" />
+                <br>
+                <label>Date of birth: </label><br />
+                <input type="date" /><br />
+                <label>Sex: </label><br />
+                <div>
+                    <select class="form-control">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Private</option>
+                    </select>
+                </div>
+                <div>
+                    Hoobies:
+                    <br />
+                    <label><input name="status" type="checkbox" /> Draw
+                    </label>
+                    <label><input name="hobby" type="checkbox" value="1" />
+                        Sport </label>
+                    <label><input name="hobby" type="checkbox" value="2" />
+                        Reading </label>
+                    <label><input name="hobby" type="checkbox" value="3" />
+                        Cook </label>
+                    <label><input name="hobby" type="checkbox" value="4" />
+                        Other </label>
+                    <br>
+                </div>
+                <label>District: </label><br />
+                <select class="form-control">
+                    <option>Quận 1</option>
+                    <option>Quận 2</option>
+                    <option>Quận 3</option>
+                    <option>Quận 4</option>
+                    <option>Quận 5</option>
+                    <option>Quận 6</option>
+                    <option>Quận 7</option>
+                    <option>Quận 8</option>
+                    <option>Quận 9</option>
+                    <option>Quận 10</option>
+                    <option>Quận 11</option>
+                    <option>Quận 12</option>
+                    <option>Quận Bình Thạnh</option>
+                    <option>Quận Gò Vấp</option>
+                    <option>Quận Phú Nhuận</option>
+                    <option>Quận Tân Bình</option>
+                    <option>Quận Tân Phú</option>
+                    <option>Quận Thủ Đức</option>
+                    <option>Quận Bình Tân</option>
+                </select>
+                <br>
+                <label>
+                    <br>
+                    <input name="re" type="checkbox" />
+                    Remember me?
+                </label>
+                <hr />
+                <button type="submit"> Sign up </button>
+                <div>
+                    <button type="button" onclick="goToSignIn()"> Sign in </button>
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

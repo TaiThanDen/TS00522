@@ -1,0 +1,57 @@
+form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.boxmodel {
+    width: 50%;
+    outline: 0;
+    background-color:none;
+    padding: 0.75rem 1rem;
+    color: rgb(0, 0, 0);
+  }
+/* style.css */
+.boxmodel input[type="text"],
+.boxmodel input[type="password"],
+.boxmodel input[type="tel"],
+.boxmodel input[type="email"],
+.boxmodel input[type="date"],
+.boxmodel select {
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.long-input {
+  width: 50%;
+  border-radius: 5px;
+  padding: 7px;
+}
+hr{
+  width:70%
+}
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  center{
+    right: 50%;
+  }
+img.avatar {
+    width: 10%;
+    border-radius: 10%;
+  }

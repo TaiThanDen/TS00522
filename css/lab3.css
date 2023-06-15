@@ -1,0 +1,52 @@
+strong {
+    color : brown;
+    font-variant:small-caps;
+    font-size:20px;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+em.doan1{
+    color : red;
+    font-variant:small-caps;
+    font-size:20px;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+
+}
+em.doan2{
+    color: blue;
+    font-variant:small-caps;
+    font-size:20px;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+em.doan3{
+    color: green;
+    font-variant:small-caps;
+    font-size:20px;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+h2_2 {
+    color: white;
+     text-shadow: 0 0 5px red;
+}
+div {
+    Text-align:center;
+}
+strong1 {
+    color : brown;
+}
+em.doan1_1{
+    color : red;
+}
+em.doan2_1{
+    color:blue;
+}
+em.doan3_1{
+    color:green;
+}
